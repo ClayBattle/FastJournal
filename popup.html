@@ -4,15 +4,38 @@
   <title>Fast Journal</title>
   <style>
     body {
-      width: 200px;
-      font-family: Arial, sans-serif;
+      width: 200px; /* Slightly wider for better button spacing */
+      font-family: 'Arial', sans-serif;
       text-align: center;
       padding: 10px;
+      background-color: #2C2C2C;
+      color: #D3D3D3; /* Ensures text is readable on dark background */
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
+  
     button {
-      margin: 5px;
-      padding: 10px;
-      font-size: 16px;
+      margin: 10px;
+      padding: 15px 20px; /* Larger padding for a better click area */
+      font-size: 18px; /* Slightly larger text for better readability */
+      background-color: #1E90FF;
+      border: none;
+      border-radius: 12px;
+      color: #D3D3D3;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    }
+    
+    button:hover {
+      background-color: #4682B4; /* Slightly darker blue on hover */
+      transform: scale(1.05); /* Slightly enlarge button on hover */
+    }
+    
+    button:active {
+      background-color: #4169E1; /* Darker blue when button is pressed */
     }
   </style>
 </head>
