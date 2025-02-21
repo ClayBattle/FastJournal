@@ -1,5 +1,6 @@
 from datetime import datetime
 import klembord
+# just some formatting tests
 klembord.init()
 
 now = datetime.now()
